@@ -19,10 +19,18 @@
         --drkRed: rgb(255, 69, 58);
         --drkTeal: rgb(100, 210, 255);
         --drkYellow: rgb(255, 214, 10);
+
+        --a1: #ff375f;
+        --a2: #fb9d3e;
+        --a3: #d2f744;
+        --a4: #5af34b;
+        --a5: #51eeb1;
+        --a6: #56bcea;
+        --a7: #5e5ce6;
       }
     </style>
     <script type="text/javascript">
-      window.onload = alert("미완성입니다.")
+      // window.onload = alert("미완성입니다.")
     </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <title>On the Spectrum</title>
@@ -34,120 +42,87 @@
     </header>
     <main class="container">
       <!-- 시작하기 -->
-      <article class="low my-3">
+      <article class="low my-3" id="start">
         <section class="col">
-          <button type="submit" class="btn btn-block btn-lg btn-primary" onclick="teststart()">Start!</button>
+          <a href="javascript:start()" class="btn btn-block btn-lg btn-primary">Start!</a>
         </section>
       </article>
 
       <article class="low">
         <section class="col">
 
-          <div class="card mb-1">
+          <div class="card my-1" id="q1" style="display: none;">
             <div class="card-body">
               <h5 class="card-text">나는 변태다.</h5>
             </div>
-            <div class="card-footer">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="q1" id="q1-3" value="option1">
-                <label class="form-check-label" for="q1-3">매우 아니다</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="q1" id="q1-2" value="option1">
-                <label class="form-check-label" for="q1-2">아니다</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="q1" id="q1-1" value="option1">
-                <label class="form-check-label" for="q1-1">조금 아니다</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="q1" id="q100" value="option1">
-                <label class="form-check-label" for="q100">모르겠다</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="q1" id="q1+1" value="option1">
-                <label class="form-check-label" for="q1+1">조금 그렇다</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="q1" id="q1+2" value="option1">
-                <label class="form-check-label" for="q1+2">그렇다</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="q1" id="q1+3" value="option1">
-                <label class="form-check-label" for="q1+3">매우 그렇다</label>
-              </div>
+            <div class="card-footer d-flex justify-content-around">
+              <button type="button" class="btn mx-1" style="background-color: var(--a1)" onclick="next();"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">매우 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a2)" onclick="next();"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a3)" onclick="next();"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">조금 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a4)" onclick="next();"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">모르겠다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a5)" onclick="next();"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">조금 그렇다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a6)" onclick="next();"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">그렇다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a7)" onclick="next();"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">매우 그렇다</span></button>
             </div>
           </div>
 
-          <div class="card">
+          <div class="card my-1" id="q2" style="display: none;">
             <div class="card-body">
               <h5>나는 맞는게 좋다.</h5>
             </div>
-            <div class="card-footer">
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="q2" id="q2-3" value="option1">
-                <label class="form-check-label" for="q2-3">매우 아니다</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="q2" id="q2-2" value="option1">
-                <label class="form-check-label" for="q2-2">아니다</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="q2" id="q2-1" value="option1">
-                <label class="form-check-label" for="q2-1">조금 아니다</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="q2" id="q200" value="option1">
-                <label class="form-check-label" for="q200">모르겠다</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="q2" id="q2+1" value="option1">
-                <label class="form-check-label" for="q2+1">조금 그렇다</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="q2" id="q2+2" value="option1">
-                <label class="form-check-label" for="q2+2">그렇다</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input class="form-check-input" type="radio" name="q2" id="q2+3" value="option1">
-                <label class="form-check-label" for="q2+3">매우 그렇다</label>
-              </div>
+            <div class="card-footer d-flex justify-content-around">
+              <button type="button" class="btn mx-1" style="background-color: var(--a1)" onclick="next();"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">매우 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a2)" onclick="next();"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a3)" onclick="next();"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">조금 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a4)" onclick="next();"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">모르겠다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a5)" onclick="next();"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">조금 그렇다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a6)" onclick="next();"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">그렇다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a7)" onclick="next();"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">매우 그렇다</span></button>
             </div>
+          </div>
 
+          <div class="card my-1" id="q3" style="display: none;">
+            <div class="card-body">
+              <h5>마지막 문제.</h5>
+            </div>
+            <div class="card-footer d-flex justify-content-around">
+              <button type="button" class="btn mx-1" style="background-color: var(--a1)" onclick="status('rb',1);$('#showresult').modal('show');"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">매우 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a2)" onclick="status('rb',2);$('#showresult').modal('show');"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a3)" onclick="status('rb',3);$('#showresult').modal('show');"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">조금 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a4)" onclick="status('rb',4);$('#showresult').modal('show');"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">모르겠다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a5)" onclick="status('rb',5);$('#showresult').modal('show');"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">조금 그렇다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a6)" onclick="status('rb',6);$('#showresult').modal('show');"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">그렇다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a7)" onclick="status('rb',7);$('#showresult').modal('show');"><span class="d-lg-none">&nbsp;&nbsp;</span><span class="d-none d-lg-block">매우 그렇다</span></button>
+            </div>
           </div>
         </section>
       </article>
       <!-- 결과보기 -->
-      <article class="low mt-1">
+      <article class="low mt-3">
         <section class="col">
-          <button type="submit" class="btn btn-block btn-lg btn-dark" data-toggle="modal" data-target="#showresult">결과보기</button>
+          <button type="submit" class="btn btn-block btn-lg btn-dark" style="display: none" data-toggle="modal" data-target="#showresult">결과보기</button>
         </section>
       </article>
       <!-- 결과창 팝업 -->
-      <div class="modal fade" id="showresult" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+      <div class="modal fade" id="showresult" data-backdrop="static" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">결과보기</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
             <div class="modal-body">
+              <h4 class="text-center mb-3">결과보기</h4>
               <div class="progress my-1" style="height: 18pt;">
-                <div class="progress-bar" role="progressbar" style="background-color: var(--drkIndigo); width: 75%" aria-valuenow="75" aria-valuemin="-100" aria-valuemax="100">도미넌트</div>
+                <div id="dominant" class="progress-bar" role="progressbar" style="background-color: var(--drkIndigo); width: 75%" aria-valuenow="75" aria-valuemin="-100" aria-valuemax="100">도미넌트</div>
               </div>
               <div class="progress my-1" style="height: 18pt;">
-                <div class="progress-bar" role="progressbar" style="background-color: var(--drkIndigo); width: 75%" aria-valuenow="75" aria-valuemin="-100" aria-valuemax="100">마스터</div>
+                <div id="master" class="progress-bar" role="progressbar" style="background-color: var(--drkIndigo); width: 75%" aria-valuenow="75" aria-valuemin="-100" aria-valuemax="100">마스터</div>
               </div>
               <div class="progress my-1" style="height: 18pt;">
-                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="-100" aria-valuemax="100">헌터</div>
+                <div id="hunter" class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="-100" aria-valuemax="100">헌터</div>
               </div>
               <div class="progress my-1" style="height: 18pt;">
-                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="-100" aria-valuemax="100">리거</div>
+                <div id="rigger" class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="-100" aria-valuemax="100">리거</div>
               </div>
               <div class="progress my-1" style="height: 18pt;">
-                <div class="progress-bar" role="progressbar" style="background-color: var(--drkIndigo); width: 75%" aria-valuenow="75" aria-valuemin="-100" aria-valuemax="100">스팽커</div>
+                <div id="spanker" class="progress-bar" role="progressbar" style="background-color: var(--drkIndigo); width: 75%" aria-valuenow="75" aria-valuemin="-100" aria-valuemax="100">스팽커</div>
               </div>
               <div class="progress my-1" style="height: 18pt;">
                 <div class="progress-bar" role="progressbar" style="background-color: var(--drkIndigo); width: 75%" aria-valuenow="75" aria-valuemin="-100" aria-valuemax="100">오너</div>
@@ -162,7 +137,7 @@
                 <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="-100" aria-valuemax="100">바닐라</div>
               </div>
               <div class="progress my-1" style="height: 18pt;">
-                <div class="progress-bar" role="progressbar" style="background-color: var(--drkIndigo); width: 75%" aria-valuenow="75" aria-valuemin="-100" aria-valuemax="100">디그레이디</div>
+                <div id="degradee" class="progress-bar" role="progressbar" style="background-color: var(--drkIndigo); width: 75%" aria-valuenow="75" aria-valuemin="-100" aria-valuemax="100">디그레이디</div>
               </div>
               <div class="progress my-1" style="height: 18pt;">
                 <div class="progress-bar" role="progressbar" style="background-color: var(--drkIndigo); width: 75%" aria-valuenow="75" aria-valuemin="-100" aria-valuemax="100">스팽키</div>
@@ -174,7 +149,7 @@
                 <div class="progress-bar" role="progressbar" style="background-color: var(--drkIndigo); width: 75%" aria-valuenow="75" aria-valuemin="-100" aria-valuemax="100">펫</div>
               </div>
               <div class="progress my-1" style="height: 18pt;">
-                <div class="progress-bar" role="progressbar" style="background-color: var(--drkIndigo); width: 75%" aria-valuenow="75" aria-valuemin="-100" aria-valuemax="100">로프버니</div>
+                <div id="ropebunny" class="progress-bar" role="progressbar" style="background-color: var(--drkIndigo); width: 75%" aria-valuenow="75" aria-valuemin="-100" aria-valuemax="100">로프버니</div>
               </div>
               <div class="progress my-1" style="height: 18pt;">
                 <div class="progress-bar" role="progressbar" style="background-color: var(--drkIndigo); width: 100%" aria-valuenow="100" aria-valuemin="-100" aria-valuemax="100">프레이</div>
@@ -185,9 +160,6 @@
               <div class="progress my-1" style="height: 18pt;">
                 <div class="progress-bar bg-success" role="progressbar" style="width: 1%" aria-valuenow="1" aria-valuemin="-100" aria-valuemax="100">서브미시브</div>
               </div>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
             </div>
           </div>
         </div>

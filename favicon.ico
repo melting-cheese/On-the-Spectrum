@@ -1,0 +1,3 @@
+function teststarting() {
+  document.getElementById('question1').style.display = "block";
+}
