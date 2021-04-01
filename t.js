@@ -3,8 +3,9 @@ function start() {
   document.getElementById("q1").style.display = "block";
   qnumber++;
 }
-function next() {
+function next(x) {
   var qid = "q"+qnumber;
+  document.getElementsByClassName('card-footer')[qnumber - 2].innerHTML = x;
   document.getElementById(qid).style.display = "block";
   qnumber++;
 }
@@ -85,6 +86,7 @@ function status(x,y) {
 var qnumber = 1;
 var dm = 50;
 var mt = 50;
+var ht = 50;
 var rg = 50;
 var de = 50;
 var rb = 50;
