@@ -63,6 +63,21 @@ function status(x,y) {
       color('ropebunny', rb);
       document.getElementById('ropebunny').style.width = rb+"%";
       break;
+    case "pr":
+      pr = pr + y - 4;
+      color('prey', pr);
+      document.getElementById('prey').style.width = pr+"%";
+      break;
+    case "sv":
+      sv = sv + y - 4;
+      color('slave', sv);
+      document.getElementById('slave').style.width = sv+"%";
+      break;
+    case "sb":
+      sb = sb + y - 4;
+      color('submissive', sb);
+      document.getElementById('submissive').style.width = sb+"%";
+      break;
     default:
       rb = 0
   }
@@ -70,6 +85,9 @@ function status(x,y) {
 var qnumber = 1;
 var dm = 50;
 var mt = 50;
-var rb = 50;
 var rg = 50;
 var de = 50;
+var rb = 50;
+var pr = 50;
+var sv = 50;
+var sb = 50;
