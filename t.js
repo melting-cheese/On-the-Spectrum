@@ -10,21 +10,22 @@ function next(x) {
   qnumber++;
 }
 function color(type, abbr) {
-  switch (abbr) {
-    case abbr > 80:
-      document.getElementById(type).style.backgroundColor = "var(--a7)";
-      break;
-    case abbr > 60:
-      document.getElementById(type).style.backgroundColor = "var(--a5)";
-      break;
-    case abbr > 40:
-      document.getElementById(type).style.backgroundColor = "var(--a3)";
-      break;
-    case abbr > 20:
-      document.getElementById(type).style.backgroundColor = "var(--a2)";
-      break;
-    default:
-      document.getElementById(type).style.backgroundColor = "var(--a1)";
+  if (abbr > 90) {
+    document.getElementById(type).style.backgroundColor = "var(--a7)";
+  } else if (abbr > 70) {
+    document.getElementById(type).style.backgroundColor = "var(--a5)";
+    document.getElementById(type).style.color = "black";
+  } else if (abbr > 50) {
+    document.getElementById(type).style.backgroundColor = "var(--a4)";
+    document.getElementById(type).style.color = "black";
+  } else if (abbr > 30) {
+    document.getElementById(type).style.backgroundColor = "var(--a3)";
+    document.getElementById(type).style.color = "black";
+  } else if (abbr > 10) {
+    document.getElementById(type).style.backgroundColor = "var(--a2)";
+    document.getElementById(type).style.color = "black";
+  } else {
+    document.getElementById(type).style.backgroundColor = "var(--a1)";
   }
 }
 function status(x,y) {
