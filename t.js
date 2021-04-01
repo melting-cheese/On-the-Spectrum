@@ -84,13 +84,17 @@ function status(x,y) {
       rb = 0
   }
 }
+
+var today = new Date();
+document.getElementById('result-date').innerText = today.getFullYear() + "년 " + (today.getMonth() + 1) + "월 " + today.getDate() + "일";
+
 var qnumber = 1;
-var dm = 50;
-var mt = 50;
-var ht = 50;
-var rg = 50;
-var de = 50;
-var rb = 50;
-var pr = 50;
-var sv = 50;
-var sb = 50;
+var dm = 52;
+var mt = 52;
+var ht = 52;
+var rg = 52;
+var de = 52;
+var rb = 52;
+var pr = 52;
+var sv = 52;
+var sb = 52;
