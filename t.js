@@ -160,6 +160,7 @@ var dg = 52;
 var ri = 52;
 var dom = 52;
 var sl = 52;
+var pr = 52;
 var br = 52;
 var pe = 52;
 var li = 52;
