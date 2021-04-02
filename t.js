@@ -42,7 +42,7 @@ function status(x,y) {
       break;
     case "bt":
       bt = bt + y - 4;
-      color('brattaimer', bt);
+      color('brattamer', bt);
       document.getElementById('brattamer').style.width = bt+"%";
       break;
     case "ow":
