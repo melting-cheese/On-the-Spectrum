@@ -276,25 +276,19 @@
               <p class="card-text">나는 섹스나 플레이, 혹은 그 둘을 동시에 하는 중에 언어적으로 비하당하거나 수치스러운 호칭으로 불리는 것을 즐긴다.</p>
             </div>
             <div class="card-footer d-flex justify-content-around">
-              <button type="button" class="btn mx-1 text-light" style="background-color: var(--a1)" onclick="status('de',1);$('#showresult').modal('show');"><span class="d-lg-none">-3</span><span class="d-none d-lg-block">매우 아니다</span></button>
-              <button type="button" class="btn mx-1" style="background-color: var(--a2)" onclick="status('de',2);$('#showresult').modal('show');"><span class="d-lg-none">-2</span><span class="d-none d-lg-block">아니다</span></button>
-              <button type="button" class="btn mx-1" style="background-color: var(--a3)" onclick="status('de',3);$('#showresult').modal('show');"><span class="d-lg-none">-1</span><span class="d-none d-lg-block">조금 아니다</span></button>
-              <button type="button" class="btn mx-1" style="background-color: var(--a4)" onclick="status('de',4);$('#showresult').modal('show');"><span class="d-lg-none">0</span><span class="d-none d-lg-block">모르겠다</span></button>
-              <button type="button" class="btn mx-1" style="background-color: var(--a5)" onclick="status('de',5);$('#showresult').modal('show');"><span class="d-lg-none">+1</span><span class="d-none d-lg-block">조금 그렇다</span></button>
-              <button type="button" class="btn mx-1" style="background-color: var(--a6)" onclick="status('de',6);$('#showresult').modal('show');"><span class="d-lg-none">+2</span><span class="d-none d-lg-block">그렇다</span></button>
-              <button type="button" class="btn mx-1 text-light" style="background-color: var(--a7)" onclick="status('de',7);$('#showresult').modal('show');"><span class="d-lg-none">+3</span><span class="d-none d-lg-block">매우 그렇다</span></button>
+              <button type="button" class="btn mx-1 text-light" style="background-color: var(--a1)" onclick="status('de',1);" data-bs-toggle="modal" data-bs-target="#result"><span class="d-lg-none">-3</span><span class="d-none d-lg-block">매우 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a2)" onclick="status('de',2);" data-bs-toggle="modal" data-bs-target="#result"><span class="d-lg-none">-2</span><span class="d-none d-lg-block">아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a3)" onclick="status('de',3);" data-bs-toggle="modal" data-bs-target="#result"><span class="d-lg-none">-1</span><span class="d-none d-lg-block">조금 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a4)" onclick="status('de',4);" data-bs-toggle="modal" data-bs-target="#result"><span class="d-lg-none">0</span><span class="d-none d-lg-block">모르겠다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a5)" onclick="status('de',5);" data-bs-toggle="modal" data-bs-target="#result"><span class="d-lg-none">+1</span><span class="d-none d-lg-block">조금 그렇다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a6)" onclick="status('de',6);" data-bs-toggle="modal" data-bs-target="#result"><span class="d-lg-none">+2</span><span class="d-none d-lg-block">그렇다</span></button>
+              <button type="button" class="btn mx-1 text-light" style="background-color: var(--a7)" onclick="status('de',7);" data-bs-toggle="modal" data-bs-target="#result"><span class="d-lg-none">+3</span><span class="d-none d-lg-block">매우 그렇다</span></button>
             </div>
           </div>
         </section>
       </article>
-      <!-- 결과보기 -->
-      <article class="low">
-        <section class="col">
-          <button type="submit" class="btn btn-block btn-lg btn-dark" style="display: none" data-toggle="modal" data-target="#showresult">결과보기</button>
-        </section>
-      </article>
       <!-- 결과창 팝업 -->
-      <div class="modal fade" id="showresult" data-backdrop="static" tabindex="-1" aria-hidden="true">
+      <div class="modal fade" id="result" data-backdrop="static" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-body">
