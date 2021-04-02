@@ -144,7 +144,7 @@ function status(x,y) {
       document.getElementById('vanilla').style.width = va+"%";
       break;
     default:
-      alert("이 문항은 아직 연구중입니다. 도와주세요.");
+      // alert("이 문항은 아직 연구중입니다. 도와주세요.");
   }
 }
 
