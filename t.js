@@ -149,6 +149,8 @@ var today = new Date();
 document.getElementById('result-date').innerText = today.getFullYear() + "년 " + (today.getMonth() + 1) + "월 " + today.getDate() + "일 " + today.getHours() + "시";
 
 var qnumber = 1;
+
+// 변수선언
 var mt = 52;
 var hu = 52;
 var bt = 52;
