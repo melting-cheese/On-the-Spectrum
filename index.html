@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="kr" dir="ltr">
+<html lang="ko" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -38,7 +38,7 @@
 
           <div class="card my-1" id="q1" style="display: none;">
             <div class="card-body">
-              <p class="card-text">나는 변태다.</p>
+              <p class="card-text">나는 특히 침대에서 지배당하고 싶다.</p>
             </div>
             <div class="card-footer d-flex justify-content-around">
               <button type="button" class="btn mx-1 text-light" style="background-color: var(--a1)" onclick="status('de',1);next('매우 아니다');"><span class="d-lg-none">-3</span><span class="d-none d-lg-block">매우 아니다</span></button>
@@ -53,7 +53,7 @@
 
           <div class="card my-1" id="q2" style="display: none;">
             <div class="card-body">
-              <p class="card-text">두번째 질문.</p>
+              <p class="card-text">나는 섹스나 플레이, 혹은 그 둘을 동시에 하는 중에 고통을 느끼고 그 결과(흔적, 멍, 눈물로 흘러내리는 화장 등)를 보는 것이 좋다.</p>
             </div>
             <div class="card-footer d-flex justify-content-around">
               <button type="button" class="btn mx-1 text-light" style="background-color: var(--a1)" onclick="status('ht',1);next('매우 아니다');"><span class="d-lg-none">-3</span><span class="d-none d-lg-block">매우 아니다</span></button>
@@ -67,6 +67,87 @@
           </div>
 
           <div class="card my-1" id="q3" style="display: none;">
+            <div class="card-body">
+              <p class="card-text">나는 파트너가 장난기 어린 저항을 하는 걸 신경쓰지 않는다. 어찌 되었든 결국 내가 이길테니까 말이다.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-around">
+              <button type="button" class="btn mx-1 text-light" style="background-color: var(--a1)" onclick="status('ht',1);next('매우 아니다');"><span class="d-lg-none">-3</span><span class="d-none d-lg-block">매우 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a2)" onclick="status('ht',2);next('아니다');"><span class="d-lg-none">-2</span><span class="d-none d-lg-block">아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a3)" onclick="status('ht',3);next('조금 아니다');"><span class="d-lg-none">-1</span><span class="d-none d-lg-block">조금 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a4)" onclick="status('ht',4);next('모르겠다');"><span class="d-lg-none">0</span><span class="d-none d-lg-block">모르겠다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a5)" onclick="status('ht',5);next('조금 그렇다');"><span class="d-lg-none">+1</span><span class="d-none d-lg-block">조금 그렇다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a6)" onclick="status('ht',6);next('그렇다');"><span class="d-lg-none">+2</span><span class="d-none d-lg-block">그렇다</span></button>
+              <button type="button" class="btn mx-1 text-light" style="background-color: var(--a7)" onclick="status('ht',7);next('매우 그렇다');"><span class="d-lg-none">+3</span><span class="d-none d-lg-block">매우 그렇다</span></button>
+            </div>
+          </div>
+
+          <div class="card my-1" id="q4" style="display: none;">
+            <div class="card-body">
+              <p class="card-text">나는 파트너가 자발적으로 복종하는 것보다, 그를 강제로 복종시키는 것이 훨씬 좋다.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-around">
+              <button type="button" class="btn mx-1 text-light" style="background-color: var(--a1)" onclick="status('ht',1);next('매우 아니다');"><span class="d-lg-none">-3</span><span class="d-none d-lg-block">매우 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a2)" onclick="status('ht',2);next('아니다');"><span class="d-lg-none">-2</span><span class="d-none d-lg-block">아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a3)" onclick="status('ht',3);next('조금 아니다');"><span class="d-lg-none">-1</span><span class="d-none d-lg-block">조금 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a4)" onclick="status('ht',4);next('모르겠다');"><span class="d-lg-none">0</span><span class="d-none d-lg-block">모르겠다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a5)" onclick="status('ht',5);next('조금 그렇다');"><span class="d-lg-none">+1</span><span class="d-none d-lg-block">조금 그렇다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a6)" onclick="status('ht',6);next('그렇다');"><span class="d-lg-none">+2</span><span class="d-none d-lg-block">그렇다</span></button>
+              <button type="button" class="btn mx-1 text-light" style="background-color: var(--a7)" onclick="status('ht',7);next('매우 그렇다');"><span class="d-lg-none">+3</span><span class="d-none d-lg-block">매우 그렇다</span></button>
+            </div>
+          </div>
+
+          <div class="card my-1" id="q5" style="display: none;">
+            <div class="card-body">
+              <p class="card-text">신체적으로 제압당했다고 느끼는 것은 내게 있어 가장 해방적인 성적 감정 중 하나다.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-around">
+              <button type="button" class="btn mx-1 text-light" style="background-color: var(--a1)" onclick="status('pr',1);next('매우 아니다');"><span class="d-lg-none">-3</span><span class="d-none d-lg-block">매우 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a2)" onclick="status('pr',2);next('아니다');"><span class="d-lg-none">-2</span><span class="d-none d-lg-block">아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a3)" onclick="status('pr',3);next('조금 아니다');"><span class="d-lg-none">-1</span><span class="d-none d-lg-block">조금 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a4)" onclick="status('pr',4);next('모르겠다');"><span class="d-lg-none">0</span><span class="d-none d-lg-block">모르겠다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a5)" onclick="status('pr',5);next('조금 그렇다');"><span class="d-lg-none">+1</span><span class="d-none d-lg-block">조금 그렇다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a6)" onclick="status('pr',6);next('그렇다');"><span class="d-lg-none">+2</span><span class="d-none d-lg-block">그렇다</span></button>
+              <button type="button" class="btn mx-1 text-ligpr" style="background-color: var(--a7)" onclick="status('pr',7);next('매우 그렇다');"><span class="d-lg-none">+3</span><span class="d-none d-lg-block">매우 그렇다</span></button>
+            </div>
+          </div>
+
+          <div class="card my-1" id="q6" style="display: none;">
+            <div class="card-body">
+              <p class="card-text">나는 동시에 여러 사람과 섹스를 하고 싶다.</p>
+            </div>
+            <div class="card-footer d-flex justify-content-around">
+              <button type="button" class="btn mx-1 text-light" style="background-color: var(--a1)" onclick="status('aa',1);next('매우 아니다');"><span class="d-lg-none">-3</span><span class="d-none d-lg-block">매우 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a2)" onclick="status('aa',2);next('아니다');"><span class="d-lg-none">-2</span><span class="d-none d-lg-block">아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a3)" onclick="status('aa',3);next('조금 아니다');"><span class="d-lg-none">-1</span><span class="d-none d-lg-block">조금 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a4)" onclick="status('aa',4);next('모르겠다');"><span class="d-lg-none">0</span><span class="d-none d-lg-block">모르겠다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a5)" onclick="status('aa',5);next('조금 그렇다');"><span class="d-lg-none">+1</span><span class="d-none d-lg-block">조금 그렇다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a6)" onclick="status('aa',6);next('그렇다');"><span class="d-lg-none">+2</span><span class="d-none d-lg-block">그렇다</span></button>
+              <button type="button" class="btn mx-1 text-ligaa" style="background-color: var(--a7)" onclick="status('aa',7);next('매우 그렇다');"><span class="d-lg-none">+3</span><span class="d-none d-lg-block">매우 그렇다</span></button>
+            </div>
+          </div>
+
+          <!-- 1페이지 -->
+
+          <!-- 2페이지 -->
+
+          <!-- 3페이지 -->
+
+          <div class="card my-1" id="q7" style="display: none;">
+            <div class="card-body">
+              <p class="card-text">탬플릿</p>
+            </div>
+            <div class="card-footer d-flex justify-content-around">
+              <button type="button" class="btn mx-1 text-light" style="background-color: var(--a1)" onclick="status('ht',1);next('매우 아니다');"><span class="d-lg-none">-3</span><span class="d-none d-lg-block">매우 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a2)" onclick="status('ht',2);next('아니다');"><span class="d-lg-none">-2</span><span class="d-none d-lg-block">아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a3)" onclick="status('ht',3);next('조금 아니다');"><span class="d-lg-none">-1</span><span class="d-none d-lg-block">조금 아니다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a4)" onclick="status('ht',4);next('모르겠다');"><span class="d-lg-none">0</span><span class="d-none d-lg-block">모르겠다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a5)" onclick="status('ht',5);next('조금 그렇다');"><span class="d-lg-none">+1</span><span class="d-none d-lg-block">조금 그렇다</span></button>
+              <button type="button" class="btn mx-1" style="background-color: var(--a6)" onclick="status('ht',6);next('그렇다');"><span class="d-lg-none">+2</span><span class="d-none d-lg-block">그렇다</span></button>
+              <button type="button" class="btn mx-1 text-light" style="background-color: var(--a7)" onclick="status('ht',7);next('매우 그렇다');"><span class="d-lg-none">+3</span><span class="d-none d-lg-block">매우 그렇다</span></button>
+            </div>
+          </div>
+
+          <div class="card my-1" id="q8" style="display: none;">
             <div class="card-body">
               <p class="card-text">마지막 질문.</p>
             </div>
@@ -83,7 +164,7 @@
         </section>
       </article>
       <!-- 결과보기 -->
-      <article class="low mt-3">
+      <article class="low">
         <section class="col">
           <button type="submit" class="btn btn-block btn-lg btn-dark" style="display: none" data-toggle="modal" data-target="#showresult">결과보기</button>
         </section>
