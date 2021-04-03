@@ -1,21 +1,32 @@
 # 원본 영어 문항지
 ## 1~
-2. I prefer making the sexual decisions for my partner, as this gives me more control.
-3. I like to be dominated, especially in the bedroom.
-8. I don't have any sort of specific fetish or non-standard sexual turn-on.
+### 2.
+I prefer making the sexual decisions for my partner, as this gives me more control.
+### 3.
+I like to be dominated, especially in the bedroom.
+### 8.
+I don't have any sort of specific fetish or non-standard sexual turn-on.
 ## 11~
-11. I don't like making sexual decisions, I prefer my partner to make them for me.
-17. I am willing to try anything once, even if I don't think I will like it.
-20. I would like to have sex with multiple people at the same time.
+### 11
+I don't like making sexual decisions, I prefer my partner to make them for me.
+### 17
+I am willing to try anything once, even if I don't think I will like it.
+### 20
+I would like to have sex with multiple people at the same time.
 ## 21~
 ## 31~
-33. I like to be sexually degraded and humiliated by my partner(s) sometimes.
+### 33
+I like to be sexually degraded and humiliated by my partner(s) sometimes.
 ## 41~
-47. Being treated with little or no respect during sex/BDSM arouses me.
-49. I find the romantic aspect in a relationship much more important than the sexual or kinky aspects.
+### 47
+Being treated with little or no respect during sex/BDSM arouses me.
+### 49
+I find the romantic aspect in a relationship much more important than the sexual or kinky aspects.
 ## 51~
-55. I like to be totally helpless and at my partner's disposal, physically unable to resist what they do.
-59. Physically restricting my partner during sex/BDSM (with clothes, attributes, rope, chains, etc.) is arousing.
+### 55
+I like to be totally helpless and at my partner's disposal, physically unable to resist what they do.
+### 59
+Physically restricting my partner during sex/BDSM (with clothes, attributes, rope, chains, etc.) is arousing.
 ## 61~
 63. Assuming I was single, I would like to join an existing couple's or polygroup's relationship for sexual and/or emotional purposes.
 ## 71~
