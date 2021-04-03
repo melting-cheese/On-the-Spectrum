@@ -13,6 +13,8 @@ If I could not fulfil all of my partner's sexual desires, I would encourage them
 ## 10
 ## 11
 I don't like making sexual decisions, I prefer my partner to make them for me.
+## 14
+I want my partner to serve me and address me as a superior.
 ## 15
 I could be sexually submissive now, and be sexually dominant another time (either to the same, or to another partner).
 ## 17
@@ -29,13 +31,18 @@ I like to be sexually degraded and humiliated by my partner(s) sometimes.
 I like to be completely in charge in the bedroom, and order my partner(s) around.
 ## 36
 I like my partner(s) to be completely in charge in the bedroom, ordering me around.
-## 41~
+## 37
+I enjoy being verbally degraded or being called humiliating names during sex/BDSM.
+## 43
+I like to sexually degrade and/or humiliate my partner(s) sometimes.
 ## 46
 I would like it when my partner is completely tied up during sex/BDSM.
 ## 47
 Being treated with little or no respect during sex/BDSM arouses me.
 ## 49
 I find the romantic aspect in a relationship much more important than the sexual or kinky aspects.
+## 52
+I'd like to submit to my partner 24/7 and see serving them as my life purpose.
 ## 53
 Being in fear of what my partner is going to do to me physically, is arousing.
 ## 55
@@ -49,6 +56,8 @@ It's no big deal when things I try turn out bad for me. It's part of the risk an
 I have plenty of sexual fantasies that I would like to try out, more than most of my kinky peers.
 ## 63
 Assuming I was single, I would like to join an existing couple's or polygroup's relationship for sexual and/or emotional purposes.
+## 65
+The idea of torturing someone sexually, is appealing.
 ## 67
 I enjoy verbally degrading my partner or calling them humiliating names during sex/BDSM.
 ## 73
@@ -57,8 +66,12 @@ Being physically restricted during sex/BDSM (with clothes, attributes, rope, cha
 Treating my partner with little or no respect during sex/BDSM arouses me.
 ## 82
 I'd like my partner(s) to submit to me 24/7 and I'm willing to take the responsibility that comes with it.
+## 83
+I could not be always dominant or always submissive, I need both.
 ## 85
 I love seeing the fear in my partner's eyes when they know I'm going to inflict pain on them.
+## 88
+I would be willing to leave everything I have behind, to live the BDSM-life of my dreams.
 ## 89
 If part of my sexual desires are not fulfilled with my partner, I would want to see other people to fill the gaps.
 ## 91
@@ -69,6 +82,12 @@ I like receiving pain during sex/BDSM and seeing the results of it (marks/bruise
 ## 101
 ## 102
 I enjoy feeling like a prey hunted by a predator.
+## 104
+I will naturally take on a nurturing and guiding, almost parental role in a relationship.
+## 107
+I like to dominate my partner(s), especially in the bedroom.
+## 110
+I like inflicting pain during sex/BDSM and seeing the results of it (marks/bruises, makeup running by tears, etc.) afterwards.
 ## 111
 ## 112
 There is no reason why sex would have to happen in private spaces, isolated from the outside world.
@@ -85,6 +104,8 @@ I like it when my partner takes on a nurturing and guiding, almost parental role
 ## 141
 ## 147
 I enjoy playing a different age than what I technically am.
+## 150
+I enjoy dressing or behaving like a child, or engaging in child-appropriate activities such as coloring in a coloring book or going to a playground.
 ## 152
 I enjoy it when my partner plays or acts like a pet animal (dog, cat, pony, etc.)
 ## 156
