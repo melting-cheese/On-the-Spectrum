@@ -10,6 +10,7 @@ function next(x) {
   qnumber++;
 }
 function etcbar() {
+  document.getElementById('etcbtn').style.display = "none";
   document.getElementById('etcbar').style.display = "block";
 }
 function color(type, abbr) {
@@ -146,8 +147,33 @@ function status(x,y) {
       color('vanilla', va);
       document.getElementById('vanilla').style.width = va+"%";
       break;
+    case "ag":
+      ag = ag + y - 4;
+      color('ageplayer', ag);
+      document.getElementById('ageplayer').style.width = ag+"%";
+      break;
+    case "eh":
+      eh = eh + y - 4;
+      color('exhibitionist', eh);
+      document.getElementById('exhibitionist').style.width = eh+"%";
+      break;
+    case "vo":
+      vo = vo + y - 4;
+      color('voyeur', vo);
+      document.getElementById('voyeur').style.width = vo+"%";
+      break;
+    case "ex":
+      ex = ex + y - 4;
+      color('experimentalist', ex);
+      document.getElementById('experimentalist').style.width = ex+"%";
+      break;
+    case "nn":
+      nn = nn + y - 4;
+      color('non', nn);
+      document.getElementById('non').style.width = nn+"%";
+      break;
     default:
-      // alert("이 문항은 아직 연구중입니다. 도와주세요.");
+      alert("오류 발생! 입력값이 이상합니다.");
   }
 }
 
@@ -157,25 +183,31 @@ document.getElementById('result-date').innerText = today.getFullYear() + "년 " 
 var qnumber = 1;
 
 // 변수선언
-var mt = 52;
-var hu = 52;
-var bt = 52;
-var ow = 52;
-var dm = 52;
-var sa = 52;
-var sp = 52;
-var dg = 52;
-var ri = 52;
-var dom = 52;
-var sl = 52;
-var pr = 52;
-var br = 52;
-var pe = 52;
-var li = 52;
-var ma = 52;
-var sk = 52;
-var de = 52;
-var rb = 52;
-var su = 52;
-var sw = 52;
-var va = 52;
+var mt = 52; // master
+var hu = 52; // hunter
+var bt = 52; // brattamer
+var ow = 52; // owner
+var dm = 52; // daddy
+var sa = 52; // sadist
+var sp = 52; // spanker
+var dg = 52; // degrader
+var ri = 52; // rigger
+var dom = 52; // dominant
+var sl = 52; // slave
+var pr = 52; // prey
+var br = 52; // brat
+var pe = 52; // pet
+var li = 52; // little
+var ma = 52; // masochist
+var sk = 52; // spankee
+var de = 52; // degradee
+var rb = 52; // ropebunny
+var su = 52; // submissive
+var sw = 52; // switch
+var va = 52; // vanilla
+
+var ag = 52; // ageplayer
+var eh = 52; // exhibitionist
+var vo = 52; // voyeur
+var ex = 52; // experimentalist
+var nn = 52; // non-monogamist
