@@ -38,137 +38,137 @@ function color(type, abbr) {
 function status(x,y) {
   switch (x) {
     case "mt":
-      mt = mt + y - 4;
+      mt = mt + y - 3;
       color('master', mt);
       document.getElementById('master').style.width = mt+"%";
       break;
     case "hu":
-      hu = hu + y - 4;
+      hu = hu + y - 3;
       color('hunter', hu);
       document.getElementById('hunter').style.width = hu+"%";
       break;
     case "bt":
-      bt = bt + y - 4;
+      bt = bt + y - 3;
       color('brattamer', bt);
       document.getElementById('brattamer').style.width = bt+"%";
       break;
     case "ow":
-      ow = ow + y - 4;
+      ow = ow + y - 3;
       color('owner', ow);
       document.getElementById('owner').style.width = ow+"%";
       break;
     case "dm":
-      dm = dm + y - 4;
+      dm = dm + y - 3;
       color('daddy', dm);
       document.getElementById('daddy').style.width = dm+"%";
       break;
     case "sa":
-      sa = sa + y - 4;
+      sa = sa + y - 3;
       color('sadist', sa);
       document.getElementById('sadist').style.width = sa+"%";
       break;
     case "sp":
-      sp = sp + y - 4;
+      sp = sp + y - 3;
       color('spanker', sp);
       document.getElementById('spanker').style.width = sp+"%";
       break;
     case "dg":
-      dg = dg + y - 4;
+      dg = dg + y - 3;
       color('degrader', dg);
       document.getElementById('degrader').style.width = dg+"%";
       break;
     case "ri":
-      ri = ri + y - 4;
+      ri = ri + y - 3;
       color('rigger', ri);
       document.getElementById('rigger').style.width = ri+"%";
       break;
     case "dom":
-      dom = dom + y - 4;
+      dom = dom + y - 3;
       color('dominant', dom);
       document.getElementById('dominant').style.width = dom+"%";
       break;
     case "sl":
-      sl = sl + y - 4;
+      sl = sl + y - 3;
       color('slave', sl);
       document.getElementById('slave').style.width = sl+"%";
       break;
     case "pr":
-      pr = pr + y - 4;
+      pr = pr + y - 3;
       color('prey', pr);
       document.getElementById('prey').style.width = pr+"%";
       break;
     case "br":
-      br = br + y - 4;
+      br = br + y - 3;
       color('brat', br);
       document.getElementById('brat').style.width = br+"%";
       break;
     case "pe":
-      pe = pe + y - 4;
+      pe = pe + y - 3;
       color('pet', pe);
       document.getElementById('pet').style.width = pe+"%";
       break;
     case "li":
-      li = li + y - 4;
+      li = li + y - 3;
       color('little', li);
       document.getElementById('little').style.width = li+"%";
       break;
     case "ma":
-      ma = ma + y - 4;
+      ma = ma + y - 3;
       color('masochist', ma);
       document.getElementById('masochist').style.width = ma+"%";
       break;
     case "sk":
-      sk = sk + y - 4;
+      sk = sk + y - 3;
       color('spankee', sk);
       document.getElementById('spankee').style.width = sk+"%";
       break;
     case "de":
-      de = de + y - 4;
+      de = de + y - 3;
       color('degradee', de);
       document.getElementById('degradee').style.width = de+"%";
       break;
     case "rb":
-      rb = rb + y - 4;
+      rb = rb + y - 3;
       color('ropebunny', rb);
       document.getElementById('ropebunny').style.width = rb+"%";
       break;
     case "su":
-      su = su + y - 4;
+      su = su + y - 3;
       color('submissive', su);
       document.getElementById('submissive').style.width = su+"%";
       break;
     case "sw":
-      sw = sw + y - 4;
+      sw = sw + y - 3;
       color('switch', sw);
       document.getElementById('switch').style.width = sw+"%";
       break;
     case "va":
-      va = va + y - 4;
+      va = va + y - 3;
       color('vanilla', va);
       document.getElementById('vanilla').style.width = va+"%";
       break;
     case "ag":
-      ag = ag + y - 4;
+      ag = ag + y - 3;
       color('ageplayer', ag);
       document.getElementById('ageplayer').style.width = ag+"%";
       break;
     case "eh":
-      eh = eh + y - 4;
+      eh = eh + y - 3;
       color('exhibitionist', eh);
       document.getElementById('exhibitionist').style.width = eh+"%";
       break;
     case "vo":
-      vo = vo + y - 4;
+      vo = vo + y - 3;
       color('voyeur', vo);
       document.getElementById('voyeur').style.width = vo+"%";
       break;
     case "ex":
-      ex = ex + y - 4;
+      ex = ex + y - 3;
       color('experimentalist', ex);
       document.getElementById('experimentalist').style.width = ex+"%";
       break;
     case "nn":
-      nn = nn + y - 4;
+      nn = nn + y - 3;
       color('non', nn);
       document.getElementById('non').style.width = nn+"%";
       break;
@@ -183,31 +183,31 @@ document.getElementById('result-date').innerText = today.getFullYear() + "년 " 
 var qnumber = 1;
 
 // 변수선언
-var mt = 52; // master
-var hu = 52; // hunter
-var bt = 52; // brattamer
-var ow = 52; // owner
-var dm = 52; // daddy
-var sa = 52; // sadist
-var sp = 52; // spanker
-var dg = 52; // degrader
-var ri = 52; // rigger
-var dom = 52; // dominant
-var sl = 52; // slave
-var pr = 52; // prey
-var br = 52; // brat
-var pe = 52; // pet
-var li = 52; // little
-var ma = 52; // masochist
-var sk = 52; // spankee
-var de = 52; // degradee
-var rb = 52; // ropebunny
-var su = 52; // submissive
-var sw = 52; // switch
-var va = 52; // vanilla
+var mt = 40; // master
+var hu = 40; // hunter
+var bt = 40; // brattamer
+var ow = 40; // owner
+var dm = 40; // daddy
+var sa = 40; // sadist
+var sp = 40; // spanker
+var dg = 40; // degrader
+var ri = 40; // rigger
+var dom = 40; // dominant
+var sl = 40; // slave
+var pr = 40; // prey
+var br = 40; // brat
+var pe = 40; // pet
+var li = 40; // little
+var ma = 40; // masochist
+var sk = 40; // spankee
+var de = 40; // degradee
+var rb = 40; // ropebunny
+var su = 40; // submissive
+var sw = 40; // switch
+var va = 40; // vanilla
 
-var ag = 52; // ageplayer
-var eh = 52; // exhibitionist
-var vo = 52; // voyeur
-var ex = 52; // experimentalist
-var nn = 52; // non-monogamist
+var ag = 40; // ageplayer
+var eh = 40; // exhibitionist
+var vo = 40; // voyeur
+var ex = 40; // experimentalist
+var nn = 40; // non-monogamist
