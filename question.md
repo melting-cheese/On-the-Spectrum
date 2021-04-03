@@ -6,6 +6,8 @@ I prefer making the sexual decisions for my partner, as this gives me more contr
 I like to be dominated, especially in the bedroom.
 ## 8
 I don't have any sort of specific fetish or non-standard sexual turn-on.
+## 9
+If I could not fulfil all of my partner's sexual desires, I would encourage them to see other people to fill the gaps.
 ## 10
 ## 11
 I don't like making sexual decisions, I prefer my partner to make them for me.
@@ -42,6 +44,8 @@ Assuming I was single, I would like to join an existing couple's or polygroup's 
 Treating my partner with little or no respect during sex/BDSM arouses me.
 ## 85
 I love seeing the fear in my partner's eyes when they know I'm going to inflict pain on them.
+## 89
+If part of my sexual desires are not fulfilled with my partner, I would want to see other people to fill the gaps.
 ## 91
 ## 93
 I would like to be completely tied up during sex/BDSM.
@@ -53,12 +57,19 @@ I enjoy feeling like a prey hunted by a predator.
 ## 111
 ## 112
 There is no reason why sex would have to happen in private spaces, isolated from the outside world.
-## 121
+## 113
+I often behave in animalistic ways during sex (growling, howling, etc.).
+## 120
+I enjoy feeling like a predator hunting its prey.
 ## 126
 I have a thing for large age differences in sexual encounters or relationships.
-## 141~
-147. I enjoy playing a different age than what I technically am.
-## 151~
+## 136
+I like it when my partner takes on a nurturing and guiding, almost parental role in the relationship.
+## 141
+## 147
+I enjoy playing a different age than what I technically am.
+## 156
+I enjoy keeping my partner as a pet: providing them with a cage, feeding them out of a bowl, petting/caressing them, etc.
 ## 157
 I enjoy playing or acting like a pet animal (dog, cat, pony, etc.)
 ## 158
@@ -81,6 +92,7 @@ I like forcing my partner into submission, much more than them submitting sponta
 I would like to serve in a formal setting with explicit slave training, prescribed physical positions and rituals, etc.
 ## 170
 ## 171
+I enjoy watching other people being naked or having sex.
 ## 172
 I enjoy it when people watch me being naked or having sex.
 ## 174
