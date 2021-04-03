@@ -4,6 +4,8 @@
 I prefer making the sexual decisions for my partner, as this gives me more control.
 ## 3
 I like to be dominated, especially in the bedroom.
+## 5
+If I could make some money from selling porn clips of myself, I definitely would.
 ## 8
 I don't have any sort of specific fetish or non-standard sexual turn-on.
 ## 9
@@ -17,8 +19,16 @@ I could be sexually submissive now, and be sexually dominant another time (eithe
 I am willing to try anything once, even if I don't think I will like it.
 ## 20
 I would like to have sex with multiple people at the same time.
+## 21
+The idea of being tortured sexually, is appealing.
+## 26
+I feel the need to serve my partner and treat them with the highest respect, addressing them as a superior.
 ## 33
 I like to be sexually degraded and humiliated by my partner(s) sometimes.
+## 35
+I like to be completely in charge in the bedroom, and order my partner(s) around.
+## 36
+I like my partner(s) to be completely in charge in the bedroom, ordering me around.
 ## 41~
 ## 46
 I would like it when my partner is completely tied up during sex/BDSM.
@@ -26,7 +36,8 @@ I would like it when my partner is completely tied up during sex/BDSM.
 Being treated with little or no respect during sex/BDSM arouses me.
 ## 49
 I find the romantic aspect in a relationship much more important than the sexual or kinky aspects.
-## 51~
+## 53
+Being in fear of what my partner is going to do to me physically, is arousing.
 ## 55
 I like to be totally helpless and at my partner's disposal, physically unable to resist what they do.
 ## 59
@@ -38,10 +49,14 @@ It's no big deal when things I try turn out bad for me. It's part of the risk an
 I have plenty of sexual fantasies that I would like to try out, more than most of my kinky peers.
 ## 63
 Assuming I was single, I would like to join an existing couple's or polygroup's relationship for sexual and/or emotional purposes.
-## 71~
-73. Being physically restricted during sex/BDSM (with clothes, attributes, rope, chains, etc.) is arousing.
+## 67
+I enjoy verbally degrading my partner or calling them humiliating names during sex/BDSM.
+## 73
+Being physically restricted during sex/BDSM (with clothes, attributes, rope, chains, etc.) is arousing.
 ## 81
 Treating my partner with little or no respect during sex/BDSM arouses me.
+## 82
+I'd like my partner(s) to submit to me 24/7 and I'm willing to take the responsibility that comes with it.
 ## 85
 I love seeing the fear in my partner's eyes when they know I'm going to inflict pain on them.
 ## 89
@@ -59,6 +74,8 @@ I enjoy feeling like a prey hunted by a predator.
 There is no reason why sex would have to happen in private spaces, isolated from the outside world.
 ## 113
 I often behave in animalistic ways during sex (growling, howling, etc.).
+## 119
+Talking back to one's dominant in a teasingly disobeying way, should be part of the sub's fun.
 ## 120
 I enjoy feeling like a predator hunting its prey.
 ## 126
@@ -68,6 +85,8 @@ I like it when my partner takes on a nurturing and guiding, almost parental role
 ## 141
 ## 147
 I enjoy playing a different age than what I technically am.
+## 152
+I enjoy it when my partner plays or acts like a pet animal (dog, cat, pony, etc.)
 ## 156
 I enjoy keeping my partner as a pet: providing them with a cage, feeding them out of a bowl, petting/caressing them, etc.
 ## 157
