@@ -9,6 +9,9 @@ function next(x) {
   document.getElementById(qid).style.display = "block";
   qnumber++;
 }
+function etcbar() {
+  document.getElementById('etcbar').style.display = "block";
+}
 function color(type, abbr) {
   if (abbr > 72) {
     document.getElementById(type).style.backgroundColor = "var(--a7)";
